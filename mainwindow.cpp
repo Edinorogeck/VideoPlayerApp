@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
 
-    controlWindow_QDockWidget   = new ControlWindow_QDockWidget;
+    controlWindow_QDockWidget   = new ControlWindow_QDockWidget();
     controlWindow_QWidget       = new ControlWindow_QWidget;
     videoWindow                 = new VideoWindow;
 
