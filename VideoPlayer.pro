@@ -9,18 +9,21 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    controlwindow.cpp \
+    controlwindow_qdockwidget.cpp \
+    controlwindow_qwidget.cpp \
     main.cpp \
     mainwindow.cpp \
     videowindow.cpp
 
 HEADERS += \
-    controlwindow.h \
+    controlwindow_qdockwidget.h \
+    controlwindow_qwidget.h \
     mainwindow.h \
     videowindow.h
 
 FORMS += \
-    controlwindow.ui \
+    controlwindow_qdockwidget.ui \
+    controlwindow_qwidget.ui \
     mainwindow.ui \
     videowindow.ui
 

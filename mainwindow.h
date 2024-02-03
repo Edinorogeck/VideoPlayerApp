@@ -3,8 +3,12 @@
 
 #include <QMainWindow>
 
-#include "controlwindow.h"
+#include "controlwindow_qdockwidget.h"
+#include "controlwindow_qwidget.h"
 #include "videowindow.h"
+
+//--------------VideoPlayerApp--------------//
+//--------------Git версия------------------//
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -23,7 +27,8 @@ public:
 private:
     Ui::MainWindow *ui;
 
-    ControlWindow       *controlWindow;
-    VideoWindow         *videoWindow;
+    ControlWindow_QDockWidget       *controlWindow_QDockWidget;
+    ControlWindow_QWidget           *controlWindow_QWidget;
+    VideoWindow                     *videoWindow;
 };
 #endif // MAINWINDOW_H

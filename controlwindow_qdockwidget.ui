@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ControlWindow</class>
- <widget class="QDockWidget" name="ControlWindow">
+ <class>ControlWindow_QDockWidget</class>
+ <widget class="QDockWidget" name="ControlWindow_QDockWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>985</width>
+    <width>1000</width>
     <height>156</height>
    </rect>
-  </property>
-  <property name="floating">
-   <bool>false</bool>
   </property>
   <property name="windowTitle">
    <string/>
